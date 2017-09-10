@@ -8,5 +8,5 @@ puts "\nupto:"
 
 var = 2112
 puts "\nstep"
-1.step(9, 2) { |i| puts "Rush #{i} #{var}" }
+1.step(by: 2, to: 9) { |i| puts "Rush #{i} #{var}" }
 
